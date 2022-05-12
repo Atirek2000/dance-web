@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=PT+Serif:ital@1&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 400px;
+}
+.logo img{
+    height: 32px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(255, 143, 143);
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px 13px;
+    
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+}
+#navbar li {
+    list-style-type: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 60px;
+    background-color: tomato;
+    background: url("../static/bg.jpg") center/cover no-repeat;
+    height: 500px;
+    opacity: 0.8;
+}
+
+#introsection div.small{
+    font-size: 45px;
+    padding: 5px;
+
+}
+#sponcersection{
+    height: 300px;
+    background-color: yellow;
+}
+#sponcersection h2{
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+#sponcer{
+    height: 100px;
+    margin: auto;
+    max-width: 1000px;
+}
+.sp-image {
+    height: 107%;
+    margin: 36px;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    height: 50px;
+    color: white;
+}
+
+#missionsection{
+    height: 300px;
+    width: 93%;
+    margin: auto;
+    /* background-color: red; */
+   
+}
+#missionsection h2{
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 12px;
+
+}
+.card{
+      border: 2px solid black;
+      display: inline-block;
+      border-radius: 10px;
+      width: 30%;
+      margin: 13px 17px;
+      height: 209px;
+      background-color: #ff8f8f;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    
+
+}
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 12px;
+    margin: 5px 28px;
+        
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+
+
+.card-content {
+    padding: 10px 10px;
+
+}
+.card-content p{
+
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+
+}

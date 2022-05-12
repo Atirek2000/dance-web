@@ -1,0 +1,63 @@
+doctype html 
+html 
+    head 
+        title Dance Academy 
+        style 
+            include ../static/style.css
+       
+    body 
+        nav#navbar 
+            ul 
+                div.logo 
+                    img(src = "../static/img/logo.png")
+                    |Dance +
+                li #[a(href = "/") Home]        
+                li #[a(href = "/") About]        
+                li #[a(href = "/") Services]        
+                li #[a(href = "/") Class info]        
+                li #[a(href = "/") Contact us]       
+        section#introsection
+            div Welcome To Atirek Dance Academy       
+            div.small Eat Sleep Dance Repeat...
+
+        section#missionsection 
+            h2 Our Mission 
+            div.card 
+                h3 Dance Perfection
+
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/1.png")
+                    div.card-content
+                        p This is the best dance academy of this world.
+
+            div.card
+                h3 Expert Teaching 
+            
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/2.png")
+                    div.card-content
+                        p This is the best dance academy of this world.  
+
+            div.card
+                h3 Dance The Way You Like 
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/3.png")
+                    div.card-content
+                        p This is the best dance academy of this world.         
+
+
+        section#sponcersection 
+            h2 Our Sponcers 
+            div#sponcer   
+                img(src = "../static/img/logo1.png",alt = "Sponcer Image", Class = "sp-image")
+                img(src="../static/img/logo2.png", alt="Sponcer Image" , class = "sp-image")
+                img(src="../static/img/logo3.png", alt="Sponcer Image" , class = "sp-image")
+                img(src="../static/img/logo4.png", alt="Sponcer Image" , class = "sp-image")
+           
+        
+            
+        script 
+            include ../static/index.js    

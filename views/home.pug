@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    script 
+            include ../static/index.js
+block style 
+    style 
+        include ../static/style.css            
+        include ../static/contactstyle.css
+
+block content
+             
+        section#introsection
+            div Welcome To Atirek Dance Academy       
+            div.small Eat Sleep Dance Repeat...
+
+        section#missionsection 
+            h2 Our Mission 
+            div.card 
+                h3 Dance Perfection
+
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/1.png")
+                    div.card-content
+                        p This is the best dance academy of this world.
+
+            div.card
+                h3 Expert Teaching 
+            
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/2.png")
+                    div.card-content
+                        p This is the best dance academy of this world.  
+
+            div.card
+                h3 Dance The Way You Like 
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/3.png")
+                    div.card-content
+                        p This is the best dance academy of this world.         
+
+
+        section#sponcersection 
+            h2 Our Sponsors 
+            div#sponcer   
+                img(src = "../static/img/logo1.png",alt = "Sponcer Image", Class = "sp-image")
+                img(src="../static/img/logo2.png", alt="Sponcer Image" , class = "sp-image")
+                img(src="../static/img/logo3.png", alt="Sponcer Image" , class = "sp-image")
+                img(src="../static/img/logo4.png", alt="Sponcer Image" , class = "sp-image")
